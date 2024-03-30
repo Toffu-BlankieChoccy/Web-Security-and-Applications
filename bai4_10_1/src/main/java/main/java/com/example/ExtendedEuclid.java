@@ -20,7 +20,7 @@ public class ExtendedEuclid {
             y = lasty - q * y;
             lasty = temp;
         }
-        System.out.println("GCD " + a + " and its Roots  x : " + lastx + " y :" + lasty);
+        System.out.println("Roots  x : " + lastx + " y :" + lasty);
         System.out.println("gcd(" + a1 + ", " + b1 + ") = " + a + "");
 
     }
@@ -28,9 +28,7 @@ public class ExtendedEuclid {
     public static void main(String[] args) {
 
         long a = 35, b = 15;
-        // this will print result like
         // Roots x : 1 y :-2
         gcdExtended(a, b);
-
     }
 }
